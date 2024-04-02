@@ -1,0 +1,29 @@
+{
+  "name": "sfx",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "dev": "sfx dev",
+    "build": "sfx build",
+    "serve": "sfx serve",
+    "lint": "npx eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "npx tsc --noEmit",
+    "prepare": "npx lefthook install"
+  },
+  "dependencies": {
+    "@storefront-x/base": "^1.27.0",
+    "@storefront-x/core": "^1.27.0",
+    "@storefront-x/react": "^0.2.0",
+    "@storefront-x/react-router": "^0.1.0"
+  },
+  "devDependencies": {
+    "@storefront-x/tooling": "^1.27.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6"
+  },
+  "workspaces": [
+    "./modules/*"
+  ]
+}
