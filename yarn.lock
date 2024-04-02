@@ -2180,14 +2180,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"demo@workspace:modules/demo":
-  version: 0.0.0-use.local
-  resolution: "demo@workspace:modules/demo"
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
-
 "depd@npm:2.0.0":
   version: 2.0.0
   resolution: "depd@npm:2.0.0"
@@ -3819,6 +3811,30 @@ __metadata:
   checksum: 10c0/46ea0f3ffa8bc6a5bc0c7081ffc3907777f0ed6516888d40a518c5111f8366d97d2678911ad1a6882bf592fa9de6c784fea32e1687bb94e1f4944170af48a5cf
   languageName: node
   linkType: hard
+
+"module-a@workspace:modules/module-a":
+  version: 0.0.0-use.local
+  resolution: "module-a@workspace:modules/module-a"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"module-b@workspace:modules/module-b":
+  version: 0.0.0-use.local
+  resolution: "module-b@workspace:modules/module-b"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"module-c@workspace:modules/module-c":
+  version: 0.0.0-use.local
+  resolution: "module-c@workspace:modules/module-c"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
 
 "ms@npm:2.0.0":
   version: 2.0.0

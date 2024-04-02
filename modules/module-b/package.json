@@ -1,0 +1,7 @@
+{
+  "name": "module-b",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "react": "*"
+  }
+}
